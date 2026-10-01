@@ -14,7 +14,7 @@ reminder to roll your shoulders, breathe, or look away from the screen.
 ```
 
 The move stays put for the whole window (default 20 minutes) and then quietly
-changes to the next one — no nagging, no notifications, just a gentle prompt
+changes to the next one. No nagging, no notifications, just a gentle prompt
 sitting at the bottom of your terminal.
 
 ## Install
@@ -79,7 +79,7 @@ CLAUDE_YOGA_MOVES_FILE="$HOME/.config/claude-yoga/moves.txt"
 
 The status-line command runs on every refresh, so picking a *random* move each
 time would make it flicker. Instead the script seeds the shell's `RANDOM` with
-the current time divided by the interval — the "window index" — so every refresh
+the current time divided by the interval (the "window index"), so every refresh
 inside the same window lands on the same move, and the move changes exactly when
 the window rolls over. No state files, no background process.
 
@@ -97,7 +97,7 @@ installed it with `jq`.
 
 ## Contributing
 
-Issues and PRs welcome — especially new stretches. See
+Issues and PRs welcome, especially new stretches. See
 [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
