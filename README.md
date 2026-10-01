@@ -5,6 +5,10 @@ that nudges you to move. It shows a random chair-yoga stretch that rotates on a
 fixed interval, so while you're deep in a session there's always a small
 reminder to roll your shoulders, breathe, or look away from the screen.
 
+<p align="center">
+  <img src="docs/screenshot.png" alt="ClaudeYoga status line showing a seated twist stretch at the bottom of a Claude Code session" width="720">
+</p>
+
 ```
 🪑 Seated twist — hand to opposite knee, 20s each side  ·  next in 12m
 ```
