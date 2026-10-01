@@ -1,0 +1,14 @@
+# Example custom moves file for ClaudeYoga.
+# One move per line. Blank lines and lines starting with '#' are ignored.
+# Point CLAUDE_YOGA_MOVES_FILE at a copy of this to use it.
+
+Stand up and reach for the ceiling — 5 breaths
+Walk to get a glass of water
+Doorway chest stretch — 20s each arm
+Standing forward fold — let the head hang, 5 breaths
+Calf raises — x15
+Hip flexor lunge stretch — 20s each side
+Wall angels — x10
+Look out the window at something far away — 20s
+Roll your shoulders and unclench your jaw
+Standing side bend — 15s each side

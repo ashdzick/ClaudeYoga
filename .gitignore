@@ -1,0 +1,7 @@
+# Editor / OS cruft
+.DS_Store
+*.swp
+*~
+
+# Local settings backups produced by install.sh / uninstall.sh
+settings.json.bak.*
