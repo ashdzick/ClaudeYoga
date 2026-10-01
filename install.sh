@@ -24,7 +24,10 @@ cp "$SRC" "$DEST"
 chmod +x "$DEST"
 echo "✓ Installed status-line script → $DEST"
 
-# Use a tilde path in settings so it's portable across machines.
+# Use a tilde path in settings so it's portable across machines. The tilde is
+# intentionally literal here: it's written into settings.json as a string and
+# expanded by Claude Code, not by this shell.
+# shellcheck disable=SC2088
 CMD="~/.claude/claude-yoga.sh"
 [ "$CLAUDE_DIR" != "$HOME/.claude" ] && CMD="$DEST"
 
